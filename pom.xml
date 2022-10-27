@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Comp367_Lab2_TJO</groupId>
+  <artifactId>Comp367_Lab2_TJO</artifactId>
+  <packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>Timothy Ong COMP303 Assignment1</description>
+  
+  <build>
+    <plugins>
+      <plugin>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.8.1</version>
+	  </plugin>
+	  <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
