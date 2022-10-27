@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout')
     {
     steps {
-    git branch: 'main', url: 'https://github.com/jonesong1/Comp367_lab2_CICD.git'
+    git branch: 'main', url: 'https://github.com/jonesong1/Comp367_lab2_CICDv3.git'
             }
         }
     stage('Maven Build') {
